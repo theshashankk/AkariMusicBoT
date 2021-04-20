@@ -9,12 +9,12 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
     & ~ filters.edited
 )
 async def start_(client: Client, message: Message):
-    await message.reply_sticker("CAACAgUAAxkBAAIp9mBtwBBZGywWEmV-WC8gcMArjusuAAKMAgACTp1xV6m-mtC1YTfoHgQ")
+    await message.reply_sticker("CAACAgEAAxkBAAEJchtgfvsZvz3OOIlXFLoLmSayvZsRrAACdgEAAi296UdEmIVdxe3iSR8E")
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
-\nI can play music in your group's voice chat
-Maintained by @HEROGAMERS1 ❤
-\nTo add in your group contact us at @LaylaSupport.
+\nI can play music in your group's voice chat😁🔥
+**A perfect Music Player...**
+\nTo add in your group contact us at @akari_support.
 \nUse the buttons below to know more about me.
  </b>""",
       
@@ -23,23 +23,23 @@ Maintained by @HEROGAMERS1 ❤
             [
                 [
                     InlineKeyboardButton(
-                        "🌍 Music World", url="https://t.me/GIRLS_AND_BOYS_CHATTING",
+                        "⚪ SUPPORT GROUP ⚪", url="https://t.me/akari_support",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/LaylaSupport"
+                        "⚪ CHANNEL ⚪", url="https://t.me/AkariSupport"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/LaylaList"
+                        "⚪ CREATOR ⚪", url="https://t.me/ThesedLyf"
                     ),
                     InlineKeyboardButton(
-                        "💾 Source code", url="https://github.com/QueenArzoo/VCPlayBot"
+                        "🎛️ COMMAND 🎛️", url="https://telegra.ph/Akari-Music-Bot-04-20"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/VCPlayBot?startgroup=true"
+                        "➕ Add To Your Group ➕", url="https://t.me/Akari_MusicBoT?startgroup=true"
                     ) 
                 ]
             ]
